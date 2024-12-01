@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.most_popular_text {
+  width: 120px;
+  height: 18px;
+  background-color: #ff6b82;
+  color: #fff;
+  text-align: center;
+  padding: 4px;
+  position: absolute;
+  top: 35.5vh;
+  left: 73vh;
+}
+
+.size_options_container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding-top: 12px;
+}
+
+.container {
+  width: 400px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  padding: 8px 50px 30px 50px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1 {
+  color: #ff6b82;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid #c8c8c8;
+  margin: 20px 0;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-content {
+  display: none;
+  margin-left: 24px;
+  font-size: 14px;
+  /* margin-top: 10px; */
+}
+
+.box.active .box-content {
+  display: block;
+}
+
+.active {
+  border: 2.5px solid #ff6b82;
+}
+
+.discount {
+  background-color: #ff6b82;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.price {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.size_label,
+.color_label {
+  font-weight: 500;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.total {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+button {
+  background-color: #ff6b82;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.divider_line_left,
+.divider_line_right {
+  width: 72px;
+  background-color: #c8c8c8;
+  height: 2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+input[type="radio"] {
+  /* accent-color: #ff6b82; */
+  filter: hue-rotate(112deg);
+}
+
+.free_delivery {
+  color: #ff6b82;
+}
+
+label {
+  font-weight: 600;
+}
+
+select {
+  padding: 6px 12px;
+  border: 1px solid #c8c8c8;
+}
+
+.add_to_cart {
+  font-weight: 600;
+}
